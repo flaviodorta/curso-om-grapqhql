@@ -17,3 +17,15 @@
 # A12
 
 - graphql types
+
+# A29
+
+- input api filters
+
+# A30
+
+- enum type api filter order
+
+# A32
+
+- interface para Error comum e gerar tipos de errors diferentes
