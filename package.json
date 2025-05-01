@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r sucrase/register src/index.js",
+    "server": "json-server --watch db.json -p 3000"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,12 @@
   "homepage": "https://github.com/flaviodorta/curso-om-grapqhql#readme",
   "dependencies": {
     "apollo-server": "^3.13.0",
-    "graphql": "^16.11.0"
+    "graphql": "^16.11.0",
+    "json-server": "^1.0.0-beta.3",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "sucrase": "^3.35.0"
   }
 }

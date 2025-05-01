@@ -1,0 +1,21 @@
+query GET_POST {
+  post361: post(id: "361") {
+    id
+    title
+    userId
+  }
+
+  post860: post(id: "860") {
+    id
+    title
+    userId
+  }
+}
+
+query GET_POST($id: ID!) {
+  post(id: $id) {
+    id
+    title
+    userId
+  }
+}
