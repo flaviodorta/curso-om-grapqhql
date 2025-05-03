@@ -10,6 +10,10 @@ const rootTypeDefs = gql`
   type Query {
     hi: String
   }
+
+  type Mutation {
+    hi: String
+  }
 `;
 
 const rootResolvers = {
