@@ -153,12 +153,12 @@
       "createdAt": "2019-10-07T20:17:43.678Z"
     },
     {
-      "id": "771",
-      "firstName": "Márcia",
-      "lastName": "Carvalho",
-      "userName": "marcia_carvalho81",
-      "indexRef": 1,
-      "createdAt": "2016-12-08T00:49:39.870Z"
+      "id": "162d",
+      "firstName": "Juninho157",
+      "lastName": "Brother2",
+      "userName": "juninho1572",
+      "indexRef": 3,
+      "createdAt": "2025-05-03T20:38:31.308Z"
     }
   ],
   "posts": [
@@ -377,14 +377,6 @@
       "userId": "592",
       "indexRef": 2,
       "createdAt": "2025-05-03T04:56:24.841Z"
-    },
-    {
-      "id": "2e4e",
-      "title": "Teste",
-      "body": "Testando",
-      "userId": "592",
-      "indexRef": 2,
-      "createdAt": "2025-05-03T05:33:27.981Z"
     }
   ],
   "comments": [
