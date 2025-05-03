@@ -6,8 +6,6 @@ import { makePostDataLoader } from './post/dataloaders';
 
 export const context = () => {
   return {
-    userDataLoader: makeUserDataLoader(getUsers(fetch)),
-    // postDataLoader: makePostDataLoader(getPosts(fetch)),
     getUsers: getUsers(fetch),
     getPosts: getPosts(fetch),
   };

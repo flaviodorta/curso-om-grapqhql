@@ -1,11 +1,11 @@
-const user = async (_, { id }, { getUsers }) => {
-  const response = await getUsers(id);
-  return response.json();
+const user = async (_, { id }, { dataSources }) => {
+  const user = dataSources.userApi.getUser(id);
+  return user;
 };
 
-const users = async (_, __, { getUsers }) => {
-  const response = await getUsers();
-  return response.json();
+const users = async (_, { input }, { dataSources }) => {
+  const users = dataSources.userApi.getUsers(input);
+  return users;
 };
 
 const posts = ({ id }, _, { dataSources }) => {
