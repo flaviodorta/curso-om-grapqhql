@@ -6,19 +6,43 @@ import { postResolvers } from './post/resolvers';
 import { apiFiltersTypeDefs } from './api-filters/typedefs';
 import { apiFilterResolvers } from './api-filters/resolvers';
 
+// const rootTypeDefs = gql`
+//   type Query {
+//     hi: String
+//   }
+
+//   type Mutation {
+//     hi: String
+//   }
+// `;
+
+// const rootResolvers = {
+//   Query: {
+//     hi: () => 'hi',
+//   },
+
+//   Mutation: () => {
+//     hi: () => 'hi';
+//   },
+// };
+
 const rootTypeDefs = gql`
   type Query {
-    hi: String
+    _empty: Boolean
   }
 
   type Mutation {
-    hi: String
+    _empty: Boolean
   }
 `;
 
 const rootResolvers = {
   Query: {
-    hi: () => 'hi',
+    _empty: () => true,
+  },
+
+  Mutation: {
+    _empty: () => true,
   },
 };
 
