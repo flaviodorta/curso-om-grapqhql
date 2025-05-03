@@ -29,3 +29,7 @@
 # A32
 
 - interface para Error comum e gerar tipos de errors diferentes
+
+# A37
+
+- configurar dotenv

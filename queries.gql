@@ -86,3 +86,13 @@ query GET_POST {
     }
   }
 }
+
+## Query 6
+
+query GET_POSTS {
+  posts(input: { _sort: "indexRef", _order: DESC, _start: 0, _limit: 100 }) {
+    id
+    title
+    body
+  }
+}
