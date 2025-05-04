@@ -96,3 +96,30 @@ query GET_POSTS {
     body
   }
 }
+
+## Query 7
+
+mutation LOGIN {
+  login(data: { userName: "Jimmy1234", password: "Abc123" }) {
+    userId
+    token
+  }
+}
+
+## Query 8
+
+mutation CREATE_USER {
+  createUser(
+    data: {
+      firstName: "Jimmy"
+      lastName: "Miranda"
+      userName: "Jimmy1234"
+      password: "Abc123"
+    }
+  ) {
+    id
+    firstName
+    lastName
+    indexRef
+  }
+}

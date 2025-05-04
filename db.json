@@ -154,11 +154,30 @@
     },
     {
       "id": "162d",
-      "firstName": "Juninho157",
+      "firstName": "Jimmyzin1",
       "lastName": "Brother2",
       "userName": "juninho1572",
       "indexRef": 3,
       "createdAt": "2025-05-03T20:38:31.308Z"
+    },
+    {
+      "id": "05cd",
+      "firstName": "Jimmyzin1",
+      "lastName": "Miranda",
+      "userName": "Jimmy123",
+      "passwordHash": "$2b$12$OKHkfg/3Unq0gXGz5Gdvr.BvHtrlIRNQ07EyV54DgdknWClmth8di",
+      "indexRef": 3,
+      "createdAt": "2025-05-03T22:05:00.674Z"
+    },
+    {
+      "id": "a4ff",
+      "firstName": "Jimmy1",
+      "lastName": "Stronda",
+      "userName": "Jimmy1",
+      "passwordHash": "$2b$12$jyNxDAiHuvf0EflgkWHSqOAvPgnMuFR4R5N4Ili4aKXZZoJV22yii",
+      "indexRef": 3,
+      "createdAt": "2025-05-04T01:14:12.337Z",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhNGZmIiwiaWF0IjoxNzQ2MzIxMjY0LCJleHAiOjE3NDY5MjYwNjR9.wxln2PGBrhRqEE0c_PKL1Tk868HOjGVFisj1pBNaB14"
     }
   ],
   "posts": [
@@ -377,6 +396,30 @@
       "userId": "592",
       "indexRef": 2,
       "createdAt": "2025-05-03T04:56:24.841Z"
+    },
+    {
+      "id": "8e74",
+      "title": "title 1",
+      "body": "body 1",
+      "userId": "602",
+      "indexRef": 2,
+      "createdAt": "2025-05-03T21:11:46.859Z"
+    },
+    {
+      "id": "b2b8",
+      "title": "Meu post logado!",
+      "body": "Agora temos sistema de login",
+      "userId": "a4ff",
+      "indexRef": 2,
+      "createdAt": "2025-05-04T01:14:38.276Z"
+    },
+    {
+      "id": "3ac1",
+      "title": "Meu post logado!",
+      "body": "Agora temos sistema de login",
+      "userId": "a4ff",
+      "indexRef": 2,
+      "createdAt": "2025-05-04T01:14:38.281Z"
     }
   ],
   "comments": [

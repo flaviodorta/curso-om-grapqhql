@@ -5,26 +5,8 @@ import { postTypeDefs } from './post/typedefs';
 import { postResolvers } from './post/resolvers';
 import { apiFiltersTypeDefs } from './api-filters/typedefs';
 import { apiFilterResolvers } from './api-filters/resolvers';
-
-// const rootTypeDefs = gql`
-//   type Query {
-//     hi: String
-//   }
-
-//   type Mutation {
-//     hi: String
-//   }
-// `;
-
-// const rootResolvers = {
-//   Query: {
-//     hi: () => 'hi',
-//   },
-
-//   Mutation: () => {
-//     hi: () => 'hi';
-//   },
-// };
+import { loginTypeDefs } from './login/typedefs';
+import { loginResolvers } from './login/resolvers';
 
 const rootTypeDefs = gql`
   type Query {
@@ -51,6 +33,7 @@ export const typeDefs = [
   userTypeDefs,
   postTypeDefs,
   apiFiltersTypeDefs,
+  loginTypeDefs,
 ];
 
 export const resolvers = [
@@ -58,4 +41,5 @@ export const resolvers = [
   userResolvers,
   postResolvers,
   apiFilterResolvers,
+  loginResolvers,
 ];
