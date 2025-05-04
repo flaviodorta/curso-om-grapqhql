@@ -177,7 +177,17 @@
       "passwordHash": "$2b$12$jyNxDAiHuvf0EflgkWHSqOAvPgnMuFR4R5N4Ili4aKXZZoJV22yii",
       "indexRef": 3,
       "createdAt": "2025-05-04T01:14:12.337Z",
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhNGZmIiwiaWF0IjoxNzQ2MzIxMjY0LCJleHAiOjE3NDY5MjYwNjR9.wxln2PGBrhRqEE0c_PKL1Tk868HOjGVFisj1pBNaB14"
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhNGZmIiwiaWF0IjoxNzQ2MzI1MjA0LCJleHAiOjE3NDY5MzAwMDR9.hi6r1dyJ2sil7EaAYayMd5XPrCR3WOzxx-bLDCyAdoQ"
+    },
+    {
+      "id": "7cdc",
+      "firstName": "Jimmy12",
+      "lastName": "Stronda",
+      "userName": "Jimmy12",
+      "passwordHash": "$2b$12$tj3I4/x.6u1VhRBVnP8tQexSdoFqB7gPaqIPMadR8TRFA5j7/J0z.",
+      "indexRef": 3,
+      "createdAt": "2025-05-04T02:26:07.620Z",
+      "token": ""
     }
   ],
   "posts": [
@@ -415,11 +425,19 @@
     },
     {
       "id": "3ac1",
-      "title": "Meu post logado!",
+      "title": "Atualize",
       "body": "Agora temos sistema de login",
       "userId": "a4ff",
       "indexRef": 2,
       "createdAt": "2025-05-04T01:14:38.281Z"
+    },
+    {
+      "id": "b2c0",
+      "title": "Meu post logado!",
+      "body": "Agora temos sistema de login",
+      "userId": "a4ff",
+      "indexRef": 2,
+      "createdAt": "2025-05-04T02:27:15.177Z"
     }
   ],
   "comments": [
